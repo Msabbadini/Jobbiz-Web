@@ -8,22 +8,22 @@ Besoins adressés : Gestion d'authentification, validation des données, gestion
 Contexte : Développement d'un backend pour un projet interne de Jobbiz dans un environnement de production.
 
 ## 🚀 Fonctionnalités principales
-✅ Inscription utilisateur : Validation des informations (email, mot de passe), création d’un compte sécurisé.
-✅ Connexion utilisateur : Authentification avec JWT, gestion des rôles (redirection vers le site approprié).
-✅ Validation par email : Envoi d'un email de confirmation avec un token pour activer le compte utilisateur.
-✅ Gestion des erreurs : Gestion centralisée des erreurs API, avec des messages clairs et explicites pour l’utilisateur.
-✅ Récupération mot de passe : Fonctionnalité de réinitialisation de mot de passe avec validation par email.
-✅ Demande de démonstration : Envoi d’un formulaire de demande pour les entreprises, traitement côté serveur.
+✅ Inscription utilisateur : Validation des informations (email, mot de passe), création d’un compte sécurisé.      
+✅ Connexion utilisateur : Authentification avec JWT, gestion des rôles (redirection vers le site approprié).       
+✅ Validation par email : Envoi d'un email de confirmation avec un token pour activer le compte utilisateur.        
+✅ Gestion des erreurs : Gestion centralisée des erreurs API, avec des messages clairs et explicites pour l’utilisateur.        
+✅ Récupération mot de passe : Fonctionnalité de réinitialisation de mot de passe avec validation par email.        
+✅ Demande de démonstration : Envoi d’un formulaire de demande pour les entreprises, traitement côté serveur.       
 
 ## 🛠️ Technologies utilisées
 
-Node.js / Express.js : Framework serveur pour créer l'API backend.
-JWT (JSON Web Tokens) : Pour l'authentification et la gestion des sessions utilisateurs.
-Bcrypt : Pour le hachage sécurisé des mots de passe.
-MongoDB / PostgreSQL : Pour le stockage des utilisateurs et des données (choisir selon ta base de données).
-Nodemailer : Pour l'envoi d’emails (activation de compte, réinitialisation de mot de passe).
-Swagger / Postman : Pour la documentation et les tests des API.
-Jest / Mocha : Pour les tests unitaires et l'intégration des API.
+Node.js / Express.js : Framework serveur pour créer l'API backend.      
+JWT (JSON Web Tokens) : Pour l'authentification et la gestion des sessions utilisateurs.        
+Bcrypt : Pour le hachage sécurisé des mots de passe.        
+MongoDB / PostgreSQL : Pour le stockage des utilisateurs et des données (choisir selon ta base de données).     
+Nodemailer : Pour l'envoi d’emails (activation de compte, réinitialisation de mot de passe).        
+Swagger / Postman : Pour la documentation et les tests des API.     
+Jest / Mocha : Pour les tests unitaires et l'intégration des API.       
 
 ## 🚀 Packages principaux utilisés :
 Voici une liste des packages clés utilisés dans ce backend :
